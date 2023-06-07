@@ -30,4 +30,10 @@ export class User {
     default: '',
   })
   password: string;
+  @Column({
+  nullable: false,
+  default: '',
+  })
+  breed: string;
 }
+
